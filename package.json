@@ -1,0 +1,16 @@
+{
+  "name": "gmc-project",
+  "version": "1.0.0",
+  "description": "final-project-MERN",
+  "scripts": {
+    "back": "cd back && npm start",
+    "front": "cd client && npm start",
+    "dev": "concurrently \"npm run front\" \"npm run back\""
+  },
+  "author": "Meher",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  }
+}
